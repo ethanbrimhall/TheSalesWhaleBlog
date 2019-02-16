@@ -1,0 +1,25 @@
+.navbar-default{
+  background-color:#0e1111;
+}
+.nav-link{
+  color: white;
+
+}
+.nav-link:hover{
+  color: #2b91ff;
+  -webkit-transition: color 1s;
+  -moz-transition:    color 1s;
+  -ms-transition:     color 1s;
+  -o-transition:      color 1s;
+  transition:         color 1s;
+}
+.navbar-brand{
+  color:white;
+}
+.navbar-brand:hover{
+  color:white;
+}
+#send-message{
+  resize: none;
+
+}
