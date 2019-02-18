@@ -97,13 +97,13 @@
         <div class="card my-4">
           <h5 id="get-in-touch-text" class="card-header">Get in Touch</h5>
           <div class="card-body">
-            <form>
+            <form method ="POST">
               <div class="form-group">
                 <input id="send-message-inputs" class="input form-control" type="text" name="name" placeholder="Name">
                 <br>
 								<input id="send-message-inputs" class="input form-control" type="email" name="email" placeholder="Email">
                 <br>
-                <textarea id="send-message-inputs" placeholder="Type your message..." id="send-message" class="form-control" rows="5"></textarea>
+                <textarea id="send-message-inputs" placeholder="Type your message..." id="send-message" class="form-control" name="message" rows="5"></textarea>
               </div>
               <button id="send-message-btn" type="submit" class="btn btn-primary">Send Message</button>
             </form>
