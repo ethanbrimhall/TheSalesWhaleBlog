@@ -1,5 +1,5 @@
 .navbar-default{
-  background-color:#0e1111;
+  background-color:#368f9b;
 }
 .nav-link{
   color: white;
@@ -7,7 +7,7 @@
   font-size:20px;
 }
 .nav-link:hover{
-  color: #2b91ff;
+  color: #34aced;
   -webkit-transition: color 1s;
   -moz-transition:    color 1s;
   -ms-transition:     color 1s;
@@ -20,21 +20,197 @@
 .navbar-brand:hover{
   color:white;
 }
-#send-message{
-  resize: none;
-
+#send-message-btn, #read-more-btn{
+  background-color: #3fabba;
+  border-color: #3fabba;
+}
+#share-to-linkedin{
+  background-color: #0178b5;
+  border-color: #0178b5;
+}
+#share-to-linkedin:hover{
+  background-color:#005582;
+  border-color:#005582;
+}
+#send-message-btn:hover, #read-more-btn:hover{
+  background-color: #225e66;
+  border-color: #225e66;
+}
+#Whale-Logo{
+   height:60px;
 }
 
 #Logo-Title{
-  font-family: 'Londrina Shadow', cursive;
+  font-family: 'Jockey One', sans-serif;
   font-size: 35px;
-
+  color:white;
 }
 #Home-Title{
-  font-family: 'Londrina Shadow';
-  font-weight: bold;
+  font-weight: lighter;
   font-size:40px;
+  font-family: 'Oswald', sans-serif;
 }
 body{
   background-color: #EEF6FE;
+  padding-top: 70px;
+}
+
+
+/*
+Blog Page
+*/
+
+#Blog-Title{
+  text-align: center;
+  font-size: 70px;
+  font-family: 'Oswald', sans-serif;
+}
+#Blog-Date{
+  text-align: center;
+}
+#Blog-Top-Image{
+  text-align: center;
+}
+#Blog-Sub-Title{
+  color: #368f9b;
+}
+
+@media (max-width: 1000px) {
+  #Logo-Title{
+    font-size: 80px;
+  }
+  #Whale-Logo{
+    height:90px;
+  }
+  #Three-Bar-Icon{
+    font-size:40px;
+  }
+  #Blog-Title{
+    font-size: 100px;
+  }
+  .nav-link{
+    font-size:50px;
+    text-align: center;
+  }
+  #Blog-Date{
+    font-size:25px;
+  }
+  #Blog-Sub-Title{
+    font-size: 50px;
+  }
+  #Blog-Paragraph{
+    font-size:40px;
+  }
+  #share-to-linkedin{
+    width:100%;
+    font-size:50px;
+  }
+  #footer-text{
+    font-size:30px;
+  }
+  #get-in-touch-text{
+    font-size:40px;
+    text-align: center;
+  }
+  #send-message-inputs{
+    font-size:50px;
+    margin-bottom: 25px;
+  }
+  #send-message-btn{
+    font-size:50px;
+    width:100%;
+  }
+  body{
+    background-color: #EEF6FE;
+    padding-top: 140px;
+  }
+}
+#send-message-inputs{
+  resize:none;
+}
+
+#profile-image{
+  border-radius: 40%;
+  height:200px;
+  width:auto;
+  border:5px solid #368f9b;
+}
+
+#name-title-about{
+  font-family: 'Oswald', sans-serif;
+  font-weight: bold;
+}
+
+.icon-bar {
+  position: fixed;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.icon-bar a {
+  display: block;
+  text-align: center;
+  padding: 16px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 20px;
+}
+
+.icon-bar a:hover {
+  background-color: #000;
+}
+
+.facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.google {
+  background: #dd4b39;
+  color: white;
+}
+
+.linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.youtube {
+  background: #bb0000;
+  color: white;
+}
+
+#selling-adaptation-photo{
+  height:400px;
+  margin-top: -50px;
+  margin-bottom: -30px;
+}
+
+#home-page-learn{
+  background-color: white;
+  width:100%;
+}
+#learn-how-to-text{
+  margin-top: 30px;
+  font-family: 'Oswald', sans-serif;
+  color:#368f9b;
+}
+#learn-message-text{
+  font: 800 3.5em/1 proxima-nova,Proxima Nova,sans-serif;
+  padding-right: 200px;
+
+}
+#home-intro{
+  font-size: 25px;
+  font-family: sans-serif;
+}
+#me-image-home{
+  height:350px;
 }

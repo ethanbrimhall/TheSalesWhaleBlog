@@ -2,21 +2,30 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>TheSalesWhale: </title>
+    <title>TheSalesWhale - Sales Training and Latest Sales News</title>
     <link rel="stylesheet" href="/bower_components/bootstrap/dist/css/bootstrap.min.css">
     <link rel="icon" href="/images/whalelogo.png">
     <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Frijole|Londrina+Shadow|Walter+Turncoat" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Annie+Use+Your+Telescope|Jockey+One" rel="stylesheet">
     <link rel="stylesheet" href="/css/main.css">
   </head>
   <body>
 
-    <nav class="navbar navbar-expand-lg navbar-default">
+    <div class="icon-bar">
+      <a href="https://www.linkedin.com/in/tl-brimhall-3473649a/" class="linkedin"><i class="fa fa-linkedin"></i></a>
+      <a href="https://www.facebook.com/profile.php?id=100007458284908" class="facebook"><i class="fa fa-facebook"></i></a>
+      <a href="https://twitter.com/TLBrimhall" class="twitter"><i class="fa fa-twitter"></i></a>
+    </div>
+
+    <nav class="navbar navbar-expand-lg navbar-default fixed-top">
       <div class="container">
-        <a href="/" class="navbar-left"><img src="/images/whalelogo.png" height="50px"></a>
+        <a href="/" class="navbar-left"><img id="Whale-Logo" src="/images/whalelogo.png"></a>
         <a id="Logo-Title" class="navbar-brand" href="/">TheSalesWhale</a>
         <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
+          <span id="Three-Bar-Icon" class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarText">
           <ul class="navbar-nav mr-auto">
@@ -32,13 +41,27 @@
           </ul>
           <ul class="navbar-nav nav-right">
             <li class="nav-item">
-              <a class="nav-link" href="/contact/">Contact</a>
+              <a class="nav-link" href="/about/">About Me</a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
 
+  <div id="home-page-learn">
+    <div class="container">
+      <br>
+      <div><p style="float: right;"><img id="me-image-home" style="float: right;" alt="" src="/images/newMe-cutout.png" /></p>
+        <h1 id="learn-how-to-text">Learn how to</h1>
+        <h1 id="learn-message-text">BUILD AND DO SOMETHING REALLY GREAT AND OTHERS THINGS REALLY GREAT</h1>
+        <br>
+        <br>
+      </div>
+      <br>
+      <br>
+      <br>
+    </div>
+  </div>
     <!-- Page Content -->
   <div class="container">
 
@@ -46,80 +69,36 @@
 
       <!-- Blog Entries Column -->
       <div class="col-md-8">
-
-        <h1 class="my-4"><span id = "Home-Title">Recent Posts</span>
-        </h1>
         <hr>
         <!-- Blog Post -->
         <div class="card mb-4">
-          <img class="card-img-top" src="/images/handshake.jpeg" alt="Card image cap">
+          <img class="card-img-top" src="/images/selling-adaptation.png" alt="Card image cap">
           <div class="card-body">
-            <h2 class="card-title">My First Blog Post</h2>
-            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis aliquid atque, nulla? Quos cum ex quis soluta, a laboriosam. Dicta expedita corporis animi vero voluptate voluptatibus possimus, veniam magni quis!</p>
-            <a href="/news/First-Post/" class="btn btn-primary">Read More &rarr;</a>
+            <h2 class="card-title">How to Adjust your Sales Approach to an Ever-Changing, Ever-Evolving Consumer Market</h2>
+            <p class="card-text">short summary</p>
+            <a id="read-more-btn" href="/training/how-to-adjust-your-sales-approach-to-an-ever-changing-ever-evolving-consumer-market/" class="btn btn-primary">Read More &rarr;</a>
           </div>
           <div class="card-footer text-muted">
-            Posted on January 1, 2017 by
-            <a href="/contact/">TL Brimhall</a>
+            Posted on January 1, 2017
           </div>
         </div>
 
-        <!-- Blog Post -->
         <div class="card mb-4">
-          <img class="card-img-top" src="/images/" alt="Post Image">
+          <img class="card-img-top" src="/images/" alt="Blog Post Image">
           <div class="card-body">
-            <h2 class="card-title">Post Title</h2>
-            <p class="card-text">Short Summary</p>
-            <a href="/news/First-Post/" class="btn btn-primary">Read More &rarr;</a>
+            <h2 class="card-title">Blog Post Title</h2>
+            <p class="card-text">Blog Post Short Summary</p>
+            <a id="read-more-btn" href="/training/how-to-adjust-your-sales-approach-to-an-ever-changing-ever-evolving-consumer-market/" class="btn btn-primary">Read More &rarr;</a>
           </div>
           <div class="card-footer text-muted">
-            Posted on Month Day, Year by
-            <a href="/contact/">TL Brimhall</a>
+            Posted on Month Day, Year
           </div>
         </div>
+
+
 
       </div>
 
-      <!-- Sidebar Widgets Column -->
-      <div class="col-md-4">
-
-        <!-- Categories Widget -->
-        <div class="card my-4">
-          <h5 class="card-header">Top Articles</h5>
-          <div class="card-body">
-            <div class="row">
-              <div class="container">
-                <ul class="list-unstyled mb-0">
-                  <li>
-                    <a href="/news/First-Post/">First Blog Post</a>
-                  </li>
-                  <br>
-                  <li>
-                    <a href="#">Link to a different blog post</a>
-                  </li>
-                  <br>
-                  <li>
-                    <a href="#">Link to a different blog post</a>
-                  </li>
-                  <br>
-                  <li>
-                    <a href="#">Link to a different blog post</a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <!-- Side Widget -->
-        <div class="card my-4">
-          <h5 class="card-header">Side Widget</h5>
-          <div class="card-body">
-            You can put anything you want inside of these side widgets. They are easy to use, and feature the new Bootstrap 4 card containers!
-          </div>
-        </div>
-
-      </div>
 
     </div>
     <!-- /.row -->
