@@ -127,7 +127,16 @@ Blog Page
   #home-blog-title{
     font-size:40px;
   }
+  #name-title-about #profile-image{
+    height:300px;
+  }
 
+  #name-title-about{
+    font-size: 70px;
+  }
+  #about-me-paragraph{
+    font-size:50px;
+  }
 }
 #send-message-inputs{
   resize:none;
