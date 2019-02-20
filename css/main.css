@@ -146,6 +146,11 @@ Blog Page
   .container{
     max-width: 970px;
   }
+  .container #blog-list-item{
+    font-size:50px;
+    color:gray;
+    font-weight: 200;
+  }
 }
 #send-message-inputs{
   resize:none;
