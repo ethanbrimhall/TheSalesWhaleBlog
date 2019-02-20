@@ -95,11 +95,14 @@ Blog Page
   #Blog-Date{
     font-size:25px;
   }
-  #Blog-Sub-Title{
-    font-size: 50px;
+  .container #Blog-Sub-Title{
+    font-size:50px;
   }
-  #Blog-Paragraph{
+  .container #Blog-Paragraph{
     font-size:40px;
+  }
+  .container #blog1-list{
+    font-size:30px;
   }
   #share-to-linkedin{
     width:100%;
@@ -136,6 +139,12 @@ Blog Page
   }
   #about-me-paragraph{
     font-size:50px;
+  }
+  #card-title-home{
+    font-size: 40px;
+  }
+  .container{
+    max-width: 970px;
   }
 }
 #send-message-inputs{
@@ -206,6 +215,10 @@ Blog Page
   margin-bottom: -30px;
 }
 
+#blog1-image{
+  height:300px;
+}
+
 #home-page-learn{
   background-color: white;
   width:100%;
@@ -220,6 +233,7 @@ Blog Page
   padding-right: 200px;
 
 }
+
 #home-intro{
   font-size: 25px;
   font-family: sans-serif;
@@ -232,7 +246,8 @@ Blog Page
   text-decoration: none;
 }
 #link-to-post:hover{
-  color:gray;
+  color:#368f9b;
+  background-color:#efefef;
   text-decoration: none;
   -webkit-filter: grayscale(40%); /* Safari 6.0 - 9.0 */
   filter: grayscale(40%);
@@ -249,4 +264,25 @@ Blog Page
   -o-transition:      filter 1s;
   transition:         filter 1s;
 
+}
+#card-title-home{
+  font-family: 'Oswald', sans-serif;
+}
+
+#Blog-Sub-Title{
+  font-family:'Oswald', sans-serif;
+  font-size:30px;
+}
+#Blog-Paragraph{
+  color:black;
+  font-size:20px;
+  font-family: 'Open Sans',sans-serif
+}
+#container-background-post{
+  background-color: white;
+  border-radius: 5%;
+}
+
+#blog1-family-pics{
+  height: 200px;
 }
