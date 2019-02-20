@@ -286,3 +286,18 @@ Blog Page
 #blog1-family-pics{
   height: 200px;
 }
+
+#blog-list-item{
+  font-size:20px;
+  color:gray;
+  font-weight: 200;
+}
+
+#blog-list-link{
+  color:black;
+  font-weight: normal;
+}
+
+#blog-list-link:hover{
+  color:#368f9b;
+}
