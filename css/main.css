@@ -20,6 +20,10 @@
 .navbar-brand:hover{
   color:white;
 }
+#home-blog-title{
+  font-family: 'Oswald', sans-serif;
+  font-size: 40px;
+}
 #send-message-btn, #read-more-btn{
   background-color: #3fabba;
   border-color: #3fabba;
@@ -129,6 +133,7 @@ Blog Page
   }
   #home-blog-title{
     font-size:40px;
+    font-family:
   }
   #name-title-about #profile-image{
     height:300px;
