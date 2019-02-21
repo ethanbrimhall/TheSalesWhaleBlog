@@ -308,3 +308,31 @@ Blog Page
 #blog-list-link:hover{
   color:#368f9b;
 }
+
+#topic-text-post{
+  color: #368f9b;
+  font-weight: bold;
+  font-family: 'Oswald', sans-serif;
+  font-size: 20px;
+}
+#blog-topics-ul li a{
+  color:white;
+  font-family: 'Lato', sans-serif;
+  text-decoration: none;
+  font-weight: 100;
+}
+#blog-topics-ul li a:hover{
+  color:black;
+}
+#blog-topics-body{
+  background-color:#319dce;
+  background-image: url("/images/pattern.png");
+  border-radius: 2%;
+  border:none;
+}
+
+#blog-topics-card-title{
+  color:white;
+  font-size:20px;
+  font-weight: bold;
+}
