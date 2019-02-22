@@ -336,3 +336,12 @@ Blog Page
   font-size:20px;
   font-weight: bold;
 }
+
+#subscribe-button{
+  background-color: #319dce;
+  color:white;
+  border:1px solid black;
+}
+#subscribe-button:hover{
+  background-color: #35b2ea;
+}
