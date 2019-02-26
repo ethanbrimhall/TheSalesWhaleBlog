@@ -170,9 +170,9 @@ Blog Page
 }
 
 #profile-image{
-  border-radius: 40%;
+  border-radius: 10%;
   height:200px;
-  width:auto;
+  width: auto;
   border:5px solid #368f9b;
 }
 
