@@ -345,3 +345,7 @@ Blog Page
 #subscribe-button:hover{
   background-color: #35b2ea;
 }
+
+#glass-full-empty-list{
+  size:55px;
+}
